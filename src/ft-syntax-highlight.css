@@ -183,7 +183,7 @@ pre.ft-syntax-highlight[data-showTooltips="true" i] code span.value::after {
 /* UI SYNTAX THEMES */
 /*  => UI themes : Beach */
 pre.ft-syntax-highlight[data-ui-theme="beach" i] {
-  background-image: url();
+  background-image: none;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   color: #888;
@@ -214,7 +214,7 @@ pre.ft-syntax-highlight[data-ui-theme="beach" i][data-showTooltips="true" i] cod
 /*  => UI themes : Bootstrap 4 theme */
 pre.ft-syntax-highlight[data-ui-theme="bootstrap4" i] {
   background-color: white;
-  background-image: url();
+  background-image: none;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   color: #888;
@@ -249,7 +249,7 @@ pre.ft-syntax-highlight[data-ui-theme="bootstrap4" i][data-showTooltips="true" i
 /*  => UI themes : Burberry theme */
 pre.ft-syntax-highlight[data-ui-theme="burberry" i] {
   background-color: beige;
-  background-image: url();
+  background-image: none;
   border: 1px solid #797C73;
   border-radius: .25rem;
   color: #888;
@@ -273,7 +273,7 @@ pre.ft-syntax-highlight[data-ui-theme="burberry" i]::before {
       hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
       hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
       hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
-      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px);  
+      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px);
   background-image: -moz-repeating-linear-gradient(
       45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
       hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
@@ -287,7 +287,7 @@ pre.ft-syntax-highlight[data-ui-theme="burberry" i]::before {
       hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
       hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
       hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
-      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px);  
+      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px);
   background-image: -o-repeating-linear-gradient(
       45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
       hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
@@ -301,7 +301,7 @@ pre.ft-syntax-highlight[data-ui-theme="burberry" i]::before {
       hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
       hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
       hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
-      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px);  
+      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px);
   background-image: repeating-linear-gradient(
       45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
       hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
@@ -346,15 +346,15 @@ pre.ft-syntax-highlight[data-ui-theme="christmas" i] {
   background: -webkit-radial-gradient(circle, transparent 20%, seagreen 20%, seagreen 80%, transparent 80%, transparent),
               -webkit-radial-gradient(circle, transparent 20%, seagreen 20%, seagreen 80%, transparent 80%, transparent) 50px 50px,
               -webkit-linear-gradient(rgba(255,250,250,0.035) 8px, transparent 8px) 0 -4px,
-              -webkit-linear-gradient(left, rgba(255,250,250,0.035) 8px, transparent 8px) -4px 0;  
+              -webkit-linear-gradient(left, rgba(255,250,250,0.035) 8px, transparent 8px) -4px 0;
   background: -moz-radial-gradient(circle, transparent 20%, seagreen 20%, seagreen 80%, transparent 80%, transparent),
               -moz-radial-gradient(circle, transparent 20%, seagreen 20%, seagreen 80%, transparent 80%, transparent) 50px 50px,
               -moz-linear-gradient(rgba(255,250,250,0.035) 8px, transparent 8px) 0 -4px,
-              -moz-linear-gradient(left, rgba(255,250,250,0.035) 8px, transparent 8px) -4px 0;  
+              -moz-linear-gradient(left, rgba(255,250,250,0.035) 8px, transparent 8px) -4px 0;
   background: -o-radial-gradient(circle, transparent 20%, seagreen 20%, seagreen 80%, transparent 80%, transparent),
               -o-radial-gradient(circle, transparent 20%, seagreen 20%, seagreen 80%, transparent 80%, transparent) 50px 50px,
               -o-linear-gradient(rgba(255,250,250,0.035) 8px, transparent 8px) 0 -4px,
-              -o-linear-gradient(left, rgba(255,250,250,0.035) 8px, transparent 8px) -4px 0;  
+              -o-linear-gradient(left, rgba(255,250,250,0.035) 8px, transparent 8px) -4px 0;
   background: radial-gradient(circle, transparent 20%, seagreen 20%, seagreen 80%, transparent 80%, transparent),
               radial-gradient(circle, transparent 20%, seagreen 20%, seagreen 80%, transparent 80%, transparent) 50px 50px,
               linear-gradient(rgba(255,250,250,0.035) 8px, transparent 8px) 0 -4px,
@@ -382,7 +382,7 @@ pre.ft-syntax-highlight[data-ui-theme="christmas" i]::before {
     #f4f4d7 90px,
     red 90px,
     red 110px
-  );  
+  );
   background: -moz-repeating-linear-gradient(
     45deg,
     #f4f4d7,
@@ -398,7 +398,7 @@ pre.ft-syntax-highlight[data-ui-theme="christmas" i]::before {
     #f4f4d7 90px,
     red 90px,
     red 110px
-  );  
+  );
   background: -o-repeating-linear-gradient(
     45deg,
     #f4f4d7,
@@ -414,7 +414,7 @@ pre.ft-syntax-highlight[data-ui-theme="christmas" i]::before {
     #f4f4d7 90px,
     red 90px,
     red 110px
-  );  
+  );
   background: repeating-linear-gradient(
     45deg,
     #f4f4d7,
@@ -514,7 +514,7 @@ pre.ft-syntax-highlight[data-ui-theme="light" i][data-showTooltips="true" i] cod
 }
 /* => UI themes : MacOSX */
 pre.ft-syntax-highlight[data-ui-theme="macosx" i] {
-  background-image: url();
+  background-image: none;
   border-radius: .3rem;
   background: rgba(0,0,0,0.8);
   padding: 11px 0 0;
@@ -561,15 +561,15 @@ pre.ft-syntax-highlight[data-ui-theme="midnight" i] {
   background-image: -webkit-radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
                     -webkit-radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
                     -webkit-radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-                    -webkit-radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);  
+                    -webkit-radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
   background-image: -moz-radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
                     -moz-radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
                     -moz-radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-                    -moz-radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);  
+                    -moz-radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
   background-image: -o-radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
                     -o-radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
                     -o-radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-                    -o-radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);  
+                    -o-radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
   background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
                     radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
                     radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
@@ -606,7 +606,7 @@ pre.ft-syntax-highlight[data-ui-theme="midnight" i][data-showTooltips="true" i] 
 }
 /* => UI themes : Nightvision */
 pre.ft-syntax-highlight[data-ui-theme="nightvision" i] {
-  background-image: url();
+  background-image: none;
   border-radius: .25rem;
   color: snow;
   background: #2c3e52;
@@ -646,7 +646,7 @@ pre.ft-syntax-highlight[data-ui-theme="simple" i] {
   background-color: 	rgb(235, 235, 235);
   border-radius: 5px;
   box-shadow: 1px 0px 2px darkgrey;
-  background-image: url();
+  background-image: none;
 }
 pre.ft-syntax-highlight[data-ui-theme="simple" i] code span.newline::before {
   color: peru;
@@ -667,7 +667,7 @@ pre.ft-syntax-highlight[data-ui-theme="simple" i][data-showTooltips="true" i] co
 }
 /* => UI themes : Win95 */
 pre.ft-syntax-highlight[data-ui-theme="win95" i] {
-  background-image: url();
+  background-image: none;
   background: rgb(192, 192, 192);
   color: black;
   border: 4px solid  rgb(192, 192, 192);
@@ -691,7 +691,7 @@ pre.ft-syntax-highlight[data-ui-theme="win95" i]::after {
   padding: 0 4px;
 }
 pre.ft-syntax-highlight[data-ui-theme="win95" i] code {
-  margin-top: 0;  
+  margin-top: 0;
   font-family:  Times, sans-serif;
   padding-left: 35px;
 }
@@ -769,7 +769,7 @@ unwanted, unpolished interface*/
 [class*='ft-syntax-highlight'] > * > pre {
   background-color: transparent;
   box-shadow: none;
-  background-image: url();
+  background-image: none;
   color: inherit;
 }
 
